@@ -1,6 +1,6 @@
 export const moonbeamPools = [
   {
-    id: 'stella-glmr-stella',
+    id: 'stellaswap-stella-wglmr',
     name: 'Stellaswap Stella Glimmer',
     token: 'STELLA-GLMR sLP',
     tokenDescription: 'Stellaswap',
@@ -13,16 +13,24 @@ export const moonbeamPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'stella-glmr-stella',
+    oracleId: 'stellaswap-stella-wglmr',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
     platform: 'Stellaswap',
     assets: ['STELLA', 'GLMR'],
-    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    risks: [
+      'COMPLEXITY_LOW', 
+      'NEW_STRAT', 
+      'IL_LOW', 
+      'MCAP_LARGE', 
+      'AUDIT', 
+      'CONTRACTS_VERIFIED'
+    ],
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://app.stellaswap.com/exchange/add/ETH/0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2',
   },
   ];
+  
