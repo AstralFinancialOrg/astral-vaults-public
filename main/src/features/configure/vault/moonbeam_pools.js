@@ -1,5 +1,3 @@
-import { govPoolABI } from '../abi';
-
 export const moonbeamPools = [
   {
     id: 'stella-glmr-stella',
