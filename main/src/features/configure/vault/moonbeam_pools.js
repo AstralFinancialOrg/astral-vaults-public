@@ -1,5 +1,38 @@
 export const moonbeamPools = [
   {
+    id: 'stellaswap-usdc-usdt',
+    name: 'Stellaswap USDC USDT',
+    token: 'USDC-USDT sLP',
+    tokenDescription: 'Stellaswap',
+    tokenAddress: '0x8BC3CceeF43392B315dDD92ba30b435F79b66b9e',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-USDC-USDT-stella',
+    earnedTokenAddress: '0x0D051859cb787e7c73bAaa147A0c74B0E31BB856',
+    earnContractAddress: '0x0D051859cb787e7c73bAaa147A0c74B0E31BB856',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'stellaswap-usdc-usdt',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Stellaswap',
+    assets: ['USDC', 'USDT'],
+    risks: [
+        'COMPLEXITY_LOW', 
+        'NEW_STRAT', 
+        'IL_LOW', 
+        'MCAP_LARGE', 
+        'AUDIT', 
+        'CONTRACTS_VERIFIED'
+    ],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+        'https://app.stellaswap.com/exchange/add/0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b/0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
+  },
+  {
     id: 'stellaswap-stella-wglmr',
     name: 'Stellaswap Stella Glimmer',
     token: 'STELLA-GLMR sLP',
