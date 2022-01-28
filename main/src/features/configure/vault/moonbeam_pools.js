@@ -32,5 +32,38 @@ export const moonbeamPools = [
     addLiquidityUrl:
       'https://app.stellaswap.com/exchange/add/ETH/0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2',
   },
+  {
+    id: 'beamswap-wglmr-glint',
+    name: 'BeamSwap Glimmer Glint',
+    token: 'GLMR-GLINT beamLP',
+    tokenDescription: 'BeamSwap',
+    tokenAddress: '0x99588867e817023162F4d4829995299054a5fC57', // want
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-GLMR-GLINT-beam',
+    earnedTokenAddress: '0x878863B8dAE6E43e77c5A489BC1820B1082e2342',
+    earnContractAddress: '0x878863B8dAE6E43e77c5A489BC1820B1082e2342',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'beamswap-wglmr-glint',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'BeamSwap',
+    assets: ['GLMR', 'GLINT'],
+    risks: [
+      'COMPLEXITY_LOW', 
+      'NEW_STRAT', 
+      'IL_LOW', 
+      'MCAP_LARGE', 
+      'AUDIT', 
+      'CONTRACTS_VERIFIED'
+    ],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.beamswap.io/exchange/add/GLMR/0xcd3B51D98478D53F4515A306bE565c6EebeF1D58',
+  },
   ];
   
