@@ -383,6 +383,32 @@ export const moonbeamPools = [
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://app.beamswap.io/exchange/add/0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F',
-  },   
+  },
+  {
+    id: 'beamswap-busd-bnb',
+    name: 'BeamSwap BUSD BNB',
+    token: 'BUSD-BNB beamLP',
+    tokenDescription: 'BeamSwap',
+    tokenAddress: '0x34A1F4AB3548A92C6B32cd778Eed310FcD9A340D', // want
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-BUSD-BNB-BEAM',
+    earnedTokenAddress: '0x80F44BaC2c27205B89AD8E44E34bBfeC412B7C1D',
+    earnContractAddress: '0x80F44BaC2c27205B89AD8E44E34bBfeC412B7C1D',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'beamswap-busd-bnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'BeamSwap',
+    assets: ['BUSD', 'BNB'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.beamswap.io/exchange/add/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F/0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055',
+  },  
   ];
   
