@@ -357,6 +357,32 @@ export const moonbeamPools = [
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://app.beamswap.io/exchange/add/0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b/0xAcc15dC74880C9944775448304B263D191c6077F',
-  },  
+  },
+   {
+    id: 'beamswap-usdc-busd',
+    name: 'BeamSwap USDC BUSD',
+    token: 'USDC-BUSD beamLP',
+    tokenDescription: 'BeamSwap',
+    tokenAddress: '0xa0799832FB2b9F18Acf44B92FbbEDCfD6442DD5e', // want
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-USDC-BUSD-BEAM',
+    earnedTokenAddress: '0x77A9E2378D443bB0ad1e061D78A3368a5451476b',
+    earnContractAddress: '0x77A9E2378D443bB0ad1e061D78A3368a5451476b',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'beamswap-usdc-busd',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'BeamSwap',
+    assets: ['USDC', 'BUSD'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.beamswap.io/exchange/add/0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F',
+  },   
   ];
   
