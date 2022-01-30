@@ -414,5 +414,31 @@ export const moonbeamPools = [
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://app.beamswap.io/exchange/add/0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b/0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
+  },
+  {
+    id: 'beamswap-busd-wglmr',
+    name: 'BeamSwap BUSD WGLMR',
+    token: 'BUSD-WGLMR beamLP',
+    tokenDescription: 'BeamSwap',
+    tokenAddress: '0xfC422EB0A2C7a99bAd330377497FD9798c9B1001', // want
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-BUSD-WGLMR-BEAM',
+    earnedTokenAddress: '0x604B0bFE73F9f0978B3612163aeDc19212C690b8',
+    earnContractAddress: '0x604B0bFE73F9f0978B3612163aeDc19212C690b8',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'beamswap-busd-wglmr',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'BeamSwap',
+    assets: ['BUSD', 'WGLMR'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.beamswap.io/exchange/add/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F/0xAcc15dC74880C9944775448304B263D191c6077F',
   },  
 ];
